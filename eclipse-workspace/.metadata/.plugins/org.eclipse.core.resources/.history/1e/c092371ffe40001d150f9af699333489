@@ -1,0 +1,20 @@
+package day08;
+
+public class testt {
+	
+
+    public static void main(String args[]){
+        boolean isPlay = squirrelPlay(70, true);
+        System.out.println(isPlay);
+    }
+
+    public static boolean squirrelPlay(int temp, boolean isSummer) {
+        if(temp>=60 && temp <=90 && !isSummer) {
+        	return true;
+        	
+        	}else if(temp>=60 && temp<=100 && isSummer) {
+        		return false;
+        }
+       
+    }
+}

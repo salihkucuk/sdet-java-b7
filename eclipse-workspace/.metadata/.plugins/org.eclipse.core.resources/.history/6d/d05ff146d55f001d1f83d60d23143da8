@@ -1,0 +1,20 @@
+package day35;
+
+import java.util.ArrayList;
+
+public class FruitList {
+    public static void main(String[] args) {
+	ArrayList<String> fruitList = new ArrayList<>();
+	fruitList.add("Banana");
+	fruitList.add("Apple");
+	fruitList.add("Orange");
+	fruitList.add("Kiwi");
+	fruitList.add("Kiwi");
+	System.out.println(fruitList);
+	
+	for(int i = fruitList.size()-1; i >= 0; i--)
+	{
+		System.out.println(fruitList.get(i));
+	}
+}
+}

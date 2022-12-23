@@ -1,0 +1,21 @@
+package day41;
+
+// if we don't define any constructors 
+// java provides empty default constructor
+public class Superhero {
+	public String name;
+	public int powerLevel;
+	
+	public Superhero() {
+		
+	}
+	public Superhero(String name) {
+		this.name = name;
+	}
+	
+	public Superhero(String name, int powerLevel) {
+		this.name = name;
+		this.powerLevel = powerLevel;
+	}
+	
+}

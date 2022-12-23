@@ -1,0 +1,17 @@
+package day09;
+public class testtt {
+	public static void main(String[] args) {
+        String res = conCat("abc", "cat");
+        System.out.println(res);
+    }
+
+    public static String conCat(String a, String b) {
+		// your code goes here
+    	if(a.substring(a.length()-1,a.length()) == b.substring(0,1))
+        {
+    		return a+b.substring(2,b.length());
+    	}else {
+    		return "sad";
+    	}
+    }
+}

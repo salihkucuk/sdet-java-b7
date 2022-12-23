@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day47.DateFormatter&apos; to &apos;DateFormatterPractice&apos;&#x0D;&#x0A;- Original project: &apos;sdet-java-b7&apos;&#x0D;&#x0A;- Original element: &apos;day47.DateFormatter&apos;&#x0D;&#x0A;- Renamed element: &apos;day47.DateFormatterPractice&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DateFormatter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day47{DateFormatter.java[DateFormatter" matchStrategy="1" name="DateFormatterPractice" qualified="false" references="true" similarDeclarations="false" stamp="1669941243103" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package day29;
+
+public class number {
+	public static void main(String[] args) {
+		
+	
+	int[] number = new int[3];
+	
+	
+	number[0] = 5;
+	number[1] = 7;
+	number[2] = 8;
+	System.out.println(number[0]);
+	System.out.println(number[1]);
+	System.out.println(number[2]);
+	
+	System.out.println(number);
+}
+}

@@ -1,0 +1,13 @@
+package day08;
+
+public class Review {
+	public static void main(String[] args) {
+		
+		int number =512;
+		byte numberByte=(byte) number;
+		System.out.println(numberByte);
+		
+		
+	}
+
+}
